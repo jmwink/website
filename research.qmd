@@ -3,29 +3,27 @@ title: "Research"
 ---
 
 <!--
-TODO — structure is here, content is placeholder.
-Conventions: newest first within each section; link DOIs or publisher pages,
-not paywalled PDFs, unless you have the right to post the file.
-Put any PDFs you do post in `files/` and link them as `files/name.pdf`.
-Delete any section you don't need.
+Citations verified against Crossref metadata 2026-08-07 (volume, issue, pages,
+year all from the registered DOI record, not inferred). Reverse chronological.
+
+Author name omitted from each entry: every item is single-authored on Joel's own
+site. Note the Croly article's published byline is "Joel M. Winkelman" with the
+middle initial, unlike the other three — matters only if full citations are
+restored.
+
+No Book section by design. Joel will add the monograph once it is under
+contract; do not announce a manuscript in revision here.
 -->
 
-## Book
-
-**TODO: Title**. TODO: Press, status (e.g. under contract, under review).
-TODO: one or two sentences on the argument.
-
-## Peer-reviewed articles
-
-- TODO: Author(s). "Title." *Journal* vol, no. (year): pages.
-  [[DOI]](https://doi.org/TODO)
-- TODO: next article.
-
-## Chapters and other writing
-
-- TODO: "Title." In *Volume*, ed. Editor. Press, year.
-
-## In progress
-
-- **TODO: working title.** TODO: one line on the argument and current stage.
-- **TODO: working title.** TODO: one line.
+- "David Foster Wallace and the Audience of Democratic Authority."
+  *American Political Thought* 11, no. 1 (2022): 96–115.
+  [DOI](https://doi.org/10.1086/717927)
+- "John Dewey's Theory of Vocation."
+  *American Political Thought* 5, no. 2 (2016): 303–325.
+  [DOI](https://doi.org/10.1086/685761)
+- "A Working Democracy: Jane Addams on the Meaning of Work."
+  *The Review of Politics* 75, no. 3 (2013): 357–382.
+  [DOI](https://doi.org/10.1017/S0034670513000314)
+- "Herbert Croly on Work and Democracy."
+  *Polity* 44, no. 1 (2012): 81–105.
+  [DOI](https://doi.org/10.1057/pol.2011.16)
