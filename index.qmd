@@ -1,36 +1,27 @@
 ---
 title: "Joel Winkelman"
 about:
-  template: trestles
-  image: images/profile.jpg
-  image-shape: rounded
+  template: solana
   links:
     - icon: envelope
       text: Email
       href: mailto:joel.winkelman@hey.com
-    - icon: mortarboard
-      text: Google Scholar
-      href: "https://scholar.google.com/citations?user=TODO"
-    - icon: file-earmark-text
-      text: CV
-      href: files/cv.pdf
 ---
 
+Assistant Professor of Government and Public Policy at Hamilton College.
+
+I was raised in Oklahoma, studied as an undergraduate at Hendrix College, and
+took my PhD at the University of North Carolina at Chapel Hill.
+
+Away from the desk I am usually in the middle of some new enthusiasm, though two
+have outlasted the others: I collect records, and I climb rock. I also tinker
+with computers, the hobby that most easily disguises itself as work. Some of it
+even is.
+
 <!--
-TODO — everything below is placeholder. Replace with your own text.
-I have deliberately not invented a title, institution, or biography.
-Delete any link above that you don't want (e.g. Google Scholar).
-If you have no photo yet, delete the `image:` and `image-shape:` lines
-and change `template: trestles` to `template: solana`.
+Removed from the links block, to be restored when you have the details:
+  - Google Scholar (needs your profile ID)
+  - CV (needs files/cv.pdf to exist, or the link 404s)
+  - Profile photo (add images/profile.jpg, then set `image: images/profile.jpg`
+    and `image-shape: rounded`, and change `template: solana` to `trestles`)
 -->
-
-**TODO: title and institution** — e.g. Assistant Professor of Political Science,
-[Institution].
-
-TODO: two or three sentences on what you study. What's the animating question,
-what methods or archives you work in, and what a reader should take away in ten
-seconds.
-
-TODO: a sentence on the book project.
-
-TODO: current position or affiliation note, if relevant.

@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Joel Winkelman"
-  description: "TODO: one-line description used in search results and link previews."
+  description: "Joel Winkelman is Assistant Professor of Government and Public Policy at Hamilton College."
   site-url: "https://joelwinkelman.com"
   navbar:
     left:
