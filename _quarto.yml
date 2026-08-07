@@ -1,12 +1,17 @@
 project:
   type: website
   output-dir: docs
+  # Both must land in docs/ on every render; Quarto only copies root files
+  # listed here. CNAME sets the custom domain. .nojekyll stops GitHub running
+  # Jekyll over the output (plain `quarto render` does not create it).
+  resources:
+    - CNAME
+    - .nojekyll
 
 website:
   title: "Joel Winkelman"
   description: "TODO: one-line description used in search results and link previews."
-  # TODO: set to your real domain once DNS is live, e.g. https://example.com
-  site-url: "https://TODO-your-domain.example"
+  site-url: "https://joelwinkelman.com"
   navbar:
     left:
       - href: index.qmd

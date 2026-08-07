@@ -10,3 +10,5 @@
 
 # Dropbox conflicted copies, in case one slips in
 *conflicted copy*
+
+**/*.quarto_ipynb

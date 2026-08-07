@@ -52,8 +52,14 @@ don't matter here.
 ## Gotchas
 
 - **`docs/.nojekyll`** must exist, or GitHub's Jekyll step strips directories
-  beginning with `_` and the site loses its CSS and JS. `quarto render` creates
-  it automatically for `type: website` — don't delete it.
+  beginning with `_` and the site can lose its CSS and JS. Plain `quarto render`
+  does **not** create it — only `quarto publish gh-pages` does. So a root
+  `.nojekyll` is committed and listed under `project: resources:` in
+  `_quarto.yml`, which copies it into `docs/` on every render. Don't delete
+  either copy or drop it from `resources`.
+- **`CNAME`** works the same way: root file, listed in `resources`, copied to
+  `docs/CNAME` on render. It holds `joelwinkelman.com`. If it goes missing,
+  GitHub silently reverts the site to `jmwink.github.io`.
 - **`files/cv.pdf`** is referenced by `cv.qmd` and `index.qmd`. If it's absent,
   those links 404 silently.
 - **`images/profile.jpg`** is referenced by `index.qmd`. If absent, the build

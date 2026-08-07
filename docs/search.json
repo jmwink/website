@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "TODO: Title. TODO: Press, status (e.g. under contract, under review). TODO: one or two sentences on the argument."
+  },
+  {
+    "objectID": "research.html#book",
+    "href": "research.html#book",
+    "title": "Research",
+    "section": "",
+    "text": "TODO: Title. TODO: Press, status (e.g. under contract, under review). TODO: one or two sentences on the argument."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-articles",
+    "href": "research.html#peer-reviewed-articles",
+    "title": "Research",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\n\nTODO: Author(s). “Title.” Journal vol, no. (year): pages. [DOI]\nTODO: next article."
+  },
+  {
+    "objectID": "research.html#chapters-and-other-writing",
+    "href": "research.html#chapters-and-other-writing",
+    "title": "Research",
+    "section": "Chapters and other writing",
+    "text": "Chapters and other writing\n\nTODO: “Title.” In Volume, ed. Editor. Press, year."
+  },
+  {
+    "objectID": "research.html#in-progress",
+    "href": "research.html#in-progress",
+    "title": "Research",
+    "section": "In progress",
+    "text": "In progress\n\nTODO: working title. TODO: one line on the argument and current stage.\nTODO: working title. TODO: one line."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "TODO: a sentence or two on how you approach teaching, if you want one. Some people skip this and go straight to the list."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\nTODO: Course title\nTODO: one or two sentences on what the course covers and at what level. [Syllabus]\n\n\nTODO: Course title\nTODO: description."
+  },
+  {
+    "objectID": "teaching.html#advising",
+    "href": "teaching.html#advising",
+    "title": "Teaching",
+    "section": "Advising",
+    "text": "Advising\nTODO: a line on what you advise on and whether you’re taking students, or delete this section."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joel Winkelman",
+    "section": "",
+    "text": "TODO: title and institution — e.g. Assistant Professor of Political Science, [Institution].\nTODO: two or three sentences on what you study. What’s the animating question, what methods or archives you work in, and what a reader should take away in ten seconds.\nTODO: a sentence on the book project.\nTODO: current position or affiliation note, if relevant."
+  }
+]
