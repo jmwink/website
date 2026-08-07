@@ -5,6 +5,11 @@
 # from that directory on the master branch, so the rendered output must be
 # committed. See README.md.
 
+# Full-resolution photo originals. Only the optimised derivatives
+# (e.g. images/profile.jpg) belong in a public repo.
+images/IMG_*.jpeg
+images/IMG_*.jpg
+
 .DS_Store
 *.icloud
 

@@ -1,7 +1,10 @@
 ---
 title: "Joel Winkelman"
 about:
-  template: solana
+  template: trestles
+  image: images/profile.jpg
+  image-shape: rectangle
+  image-width: 20em
   links:
     - icon: envelope
       text: Email
@@ -25,6 +28,9 @@ rock climbing. I also tinker with computers more than I probably should.
 Removed from the links block, to be restored when you have the details:
   - Google Scholar (needs your profile ID)
   - CV (needs files/cv.pdf to exist, or the link 404s)
-  - Profile photo (add images/profile.jpg, then set `image: images/profile.jpg`
-    and `image-shape: rounded`, and change `template: solana` to `trestles`)
+
+Profile photo: images/profile.jpg is a web-optimised derivative (900x1200,
+EXIF orientation baked in, metadata stripped) generated from the untracked
+original images/IMG_1509.jpeg. Regenerate it rather than editing in place; the
+original is gitignored to keep 4 MB out of a public repo.
 -->
