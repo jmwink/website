@@ -1,0 +1,31 @@
+---
+title: "Research"
+---
+
+<!--
+TODO — structure is here, content is placeholder.
+Conventions: newest first within each section; link DOIs or publisher pages,
+not paywalled PDFs, unless you have the right to post the file.
+Put any PDFs you do post in `files/` and link them as `files/name.pdf`.
+Delete any section you don't need.
+-->
+
+## Book
+
+**TODO: Title**. TODO: Press, status (e.g. under contract, under review).
+TODO: one or two sentences on the argument.
+
+## Peer-reviewed articles
+
+- TODO: Author(s). "Title." *Journal* vol, no. (year): pages.
+  [[DOI]](https://doi.org/TODO)
+- TODO: next article.
+
+## Chapters and other writing
+
+- TODO: "Title." In *Volume*, ed. Editor. Press, year.
+
+## In progress
+
+- **TODO: working title.** TODO: one line on the argument and current stage.
+- **TODO: working title.** TODO: one line.

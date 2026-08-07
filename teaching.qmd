@@ -1,0 +1,28 @@
+---
+title: "Teaching"
+---
+
+<!--
+TODO — content is placeholder.
+Optional: link syllabi as PDFs from `files/`. Only post syllabi you're happy
+to have public and indexed.
+-->
+
+TODO: a sentence or two on how you approach teaching, if you want one. Some
+people skip this and go straight to the list.
+
+## Courses
+
+### TODO: Course title
+
+TODO: one or two sentences on what the course covers and at what level.
+[[Syllabus]](files/TODO-syllabus.pdf)
+
+### TODO: Course title
+
+TODO: description.
+
+## Advising
+
+TODO: a line on what you advise on and whether you're taking students, or
+delete this section.

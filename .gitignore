@@ -1,0 +1,12 @@
+# Quarto build cache — regenerated on every render.
+/.quarto/
+
+# NOTE: `docs/` is intentionally NOT ignored. GitHub Pages serves the site
+# from that directory on the master branch, so the rendered output must be
+# committed. See README.md.
+
+.DS_Store
+*.icloud
+
+# Dropbox conflicted copies, in case one slips in
+*conflicted copy*

@@ -1,0 +1,36 @@
+---
+title: "Joel Winkelman"
+about:
+  template: trestles
+  image: images/profile.jpg
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:joel.winkelman@hey.com
+    - icon: mortarboard
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=TODO"
+    - icon: file-earmark-text
+      text: CV
+      href: files/cv.pdf
+---
+
+<!--
+TODO — everything below is placeholder. Replace with your own text.
+I have deliberately not invented a title, institution, or biography.
+Delete any link above that you don't want (e.g. Google Scholar).
+If you have no photo yet, delete the `image:` and `image-shape:` lines
+and change `template: trestles` to `template: solana`.
+-->
+
+**TODO: title and institution** — e.g. Assistant Professor of Political Science,
+[Institution].
+
+TODO: two or three sentences on what you study. What's the animating question,
+what methods or archives you work in, and what a reader should take away in ten
+seconds.
+
+TODO: a sentence on the book project.
+
+TODO: current position or affiliation note, if relevant.

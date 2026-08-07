@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Joel Winkelman"
+  description: "TODO: one-line description used in search results and link previews."
+  # TODO: set to your real domain once DNS is live, e.g. https://example.com
+  site-url: "https://TODO-your-domain.example"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    center: "© 2026 Joel Winkelman"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: false

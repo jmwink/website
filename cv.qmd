@@ -1,0 +1,25 @@
+---
+title: "CV"
+---
+
+<!--
+Simplest durable approach: keep the CV as a PDF you regenerate elsewhere and
+drop into `files/cv.pdf`. That way the site never drifts from the real document.
+Put the PDF at `files/cv.pdf` before building, or this link will 404.
+-->
+
+[Download CV (PDF)](files/cv.pdf)
+
+<!--
+Optional: an embedded viewer. Uncomment if you want the PDF visible inline.
+Some mobile browsers won't render it, which is why the link above comes first.
+
+<iframe src="files/cv.pdf" width="100%" height="800px" style="border: 1px solid #ddd;">
+</iframe>
+-->
+
+<!--
+Optional alternative: maintain a short HTML summary here (Education,
+Positions, Selected publications) and link the full PDF. More to keep in sync,
+but it's indexable by search engines in a way the PDF isn't.
+-->
