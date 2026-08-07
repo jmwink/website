@@ -10,6 +10,11 @@
 images/IMG_*.jpeg
 images/IMG_*.jpg
 
+# The unredacted 4-page CV. Its page 4 lists referees' phone numbers and
+# emails, which must not be published. files/cv.pdf is the 3-page public
+# version (pages 1-3 only). Never commit this file.
+files/cv-full-private.pdf
+
 .DS_Store
 *.icloud
 

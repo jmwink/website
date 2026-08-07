@@ -3,9 +3,19 @@ title: "CV"
 ---
 
 <!--
-Simplest durable approach: keep the CV as a PDF you regenerate elsewhere and
-drop into `files/cv.pdf`. That way the site never drifts from the real document.
-Put the PDF at `files/cv.pdf` before building, or this link will 404.
+files/cv.pdf is the PUBLIC version: pages 1-3 of the full CV only.
+
+Page 4 of the full CV is a References section listing four colleagues with
+their direct phone numbers and email addresses. That page is deliberately
+excluded — publishing it would expose third parties' contact details. The
+unredacted original is kept at files/cv-full-private.pdf, which is gitignored.
+
+When updating: replace files/cv-full-private.pdf with the new full CV, then
+regenerate the public copy, dropping the References page:
+
+    qpdf files/cv-full-private.pdf --pages . 1-3 -- files/cv.pdf
+
+Check the page range first — it will change if the CV grows past 4 pages.
 -->
 
 [Download CV (PDF)](files/cv.pdf)
