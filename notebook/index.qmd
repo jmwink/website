@@ -28,5 +28,5 @@ TODO has reached this site once already. The script is the guard.
 would make this comment trip the very check it documents.)
 -->
 
-Working notes from projects in progress — what I'm finding, and what I haven't
-figured out yet. Not drafts.
+This public notebook is working notes from projects in progress. It's a diary of what I'm finding, and what I haven't
+figured out yet. Not drafts. An experiment.

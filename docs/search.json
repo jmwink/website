@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "handoff.html",
-    "href": "handoff.html",
-    "title": "Website — Handoff",
-    "section": "",
-    "text": "Website — Handoff\n\nOwner: none. This file has no owning command and is updated by hand. There is no /website-done; the site’s own mechanics live in README.md, and this file carries only the open items. If you touch this project, write this file by hand before you close the session.\n\n\n⚠ This file is gitignored and must stay that way. Projects/website/ is a public GitHub repo (Pages requires it on the free plan). Anything committed here is published at joelwinkelman.com. Working notes do not belong on the public web.\n\nRead-first file for the weekly card’s Context line. Low-maintenance project: the site is finished and live, so this is a punch list, not an active work front.\nWhere things stand: Built and live 2026-08-07 at https://joelwinkelman.com, HTTPS enforced, four pages (About, Research, Teaching, CV), all returning 200. Quarto → committed docs/ → GitHub Pages, no CI. Publish with quarto render && git add -A && git commit && git push. Mechanics, layout, and the silent-failure gotchas are documented in Projects/website/README.md; the durable rules and the DNS/certificate history are in the project-website memory. Nothing here is blocking and nothing is time-anchored.\nOpen items (all small, none urgent):\n\nGoogle Scholar link — pulled from the About page because the scaffold’s href was the literal string TODO. Restore it in index.qmd once Joel supplies his profile ID.\nBook section on the Research page — deliberately absent. Joel’s decision: it goes up once the monograph is under contract, not while it is in revision. Do not add it speculatively.\nCV typo — page 1 of the CV reads “Adminsitrative Appointments”. The fix belongs in Joel’s LaTeX source, not the PDF; it is currently published on the site and going out to search committees.\nSettings/CLAUDE.md says “Professor of Government and Public Policy” — the CV says Assistant Professor, 2024–present. That file is read at the start of every session, so the stale rank keeps propagating. Not a website fix, but surfaced by this project.\n\nStanding rule — the CV is redacted. files/cv.pdf is pages 1–3 only. Page 4 of the full CV is a References section listing four colleagues with direct phone numbers and email addresses. Regenerate the public copy with qpdf files/cv-full-private.pdf --pages . 1-3 -- files/cv.pdf and verify the page range every time — it is hardcoded, so a longer CV either silently drops real content or silently publishes the referees. The unredacted original is gitignored.\nStanding rule — register. The site’s prose is conversational and uses contractions. This departs from Settings/rules/voice-spec.md by Joel’s explicit choice; voice-spec governs essays, not this site. Each page carries a comment saying so. Do not “correct” it."
-  },
-  {
-    "objectID": "notebook/index.html",
-    "href": "notebook/index.html",
-    "title": "Notebook",
-    "section": "",
-    "text": "Working notes from projects in progress — what I’m finding, and what I haven’t figured out yet. Not drafts.\n\n\n\n\n\n\n\n\n\nJust another day at the office\n\n\nHow a project on Cold War social science started with a blog post about Murray Edelman, read between administrative tasks.\n\n\n\n\n\nAugust 9, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Joel Winkelman",
-    "section": "",
-    "text": "I teach government and public policy at Hamilton College.\nI’m from Oklahoma. I went to Hendrix College and did my PhD at UNC-Chapel Hill.\nI’ve always got a new hobby going. The two that stuck are record collecting and rock climbing. I also tinker with computers more than I probably should."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "“David Foster Wallace and the Audience of Democratic Authority.” American Political Thought 11, no. 1 (2022): 96–115. DOI\n“John Dewey’s Theory of Vocation.” American Political Thought 5, no. 2 (2016): 303–325. DOI\n“A Working Democracy: Jane Addams on the Meaning of Work.” The Review of Politics 75, no. 3 (2013): 357–382. DOI\n“Herbert Croly on Work and Democracy.” Polity 44, no. 1 (2012): 81–105. DOI"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I’ve taught a range of courses over my career at Hamilton. The three I keep coming back to are American Political Process, Introduction to Public Policy, and a seminar on Capitalism, Democracy, and the Workplace."
-  },
-  {
     "objectID": "work-in-progress.html",
     "href": "work-in-progress.html",
     "title": "Work in Progress",
@@ -56,6 +21,20 @@
     "text": "Cold War social science in the United States\nI am also at work on an as-yet-unnamed project on the surprising interdisciplinary exchanges during the Cold War in the United States. These exchanges gave rise to what we now consider mainstream political science, and gave birth to a new field that was at the time called (by its progenitors) “policy sciences,” and which we now know as the discipline of public policy. I have presented work from this project to the Northeast Political Science Association, the Association for Political Theory, and the Social Science History Association. It’s based in archival sources, and is therefore even more slow-moving than my usual snail’s pace. With support from the American Philosophical Society and the Office of the Dean of Faculty, I am on leave during the 2026–27 academic year so that I can get this project off the ground. If you wish to follow the journey, then you can read my public notebook."
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "“David Foster Wallace and the Audience of Democratic Authority.” American Political Thought 11, no. 1 (2022): 96–115. DOI\n“John Dewey’s Theory of Vocation.” American Political Thought 5, no. 2 (2016): 303–325. DOI\n“A Working Democracy: Jane Addams on the Meaning of Work.” The Review of Politics 75, no. 3 (2013): 357–382. DOI\n“Herbert Croly on Work and Democracy.” Polity 44, no. 1 (2012): 81–105. DOI"
+  },
+  {
+    "objectID": "notebook/2026-08-09-just-another-day-at-the-office.html",
+    "href": "notebook/2026-08-09-just-another-day-at-the-office.html",
+    "title": "Just another day at the office",
+    "section": "",
+    "text": "I want to write a little bit about the genesis of this project, mostly so that I don’t forget. It may also be useful to some reader to peek behind the curtain of how professors at liberal arts colleges work.\nPart of where this project came from was a random blog post that I was reading about Murray Edelman, whose concept of “symbolic reassurance” is one of the most powerful and under-examined concepts in the discipline. I find that it’s even more powerful when considered in his own historical context. I’m liable to get bogged down if I write any more about Edelman, so I’ll try to get to the point. It’s going to take a second.\nAt the time, I was working in an administrative role at the college and didn’t have time to dedicate to serious scholarship. My curiosity was rather untethered and I indulged it in spare moments between trying to establish a program in “public philosophy” and implementation of an expanded, branded “experiential learning” initiative.\nSo, when I had time to read a blog post on Murray Edelman, I found stray references to an unknown-to-me author named Eric Berne and his book Games People Play. The post didn’t provide a satisfactory explanation of the connection between Berne and Edelman. And so the reference was like a fly to a brook trout: a hook in a swiftly moving stream.\nOver the next few months, I put the pieces together of who Berne was: a Canadian who had trained in psychoanalysis and settled in Northern California. It didn’t take much: he’s reasonably well-documented online. He was mostly in private practice, not institutional. But he was well-known in his field as the founder of a therapeutic methodology called “transactional analysis.” Games People Play was a mature expression of this methodology. The book itself, I would learn, is a strange text: part textbook for therapists, part self-help, and partly a book for the general reader. It seemed self-conscious and like it was attempting humor, though most of what he seems to try and pass off as humor are bald-faced misogyny and homophobia. In that regard, parts of it are hard to get through.\nIn writing my paper on John Dewey I had come across the vocational guidance literature, so I had a basic mental model of how to understand Games People Play, but not one large enough to shake my curiosity off of it.\nThat’s where the project got its start: a random blog post on an afternoon between administrative tasks.\nBut I forgot to mention one thing: Games People Play wasn’t some obscure text from the 1960s. It had been a smash for its publisher. It was well-known enough that in 1968 Joe South released a song called “Games People Play,” which won the Grammy for Song of the Year. I’m pretty certain, though I haven’t been able to find the documentary connection that I would need to make the claim in academic writing, that South’s song is inspired by the book and its popularity. The Grove Press archives may have just what I’m after; a publisher like Grove would want their piece of the pie.\nIt has been recorded by something like two hundred artists since. King Curtis’s instrumental version (Duane Allman on guitar) won a Grammy of its own. Dolly Parton did a version. My favorite is Lee Dorsey’s, on Yes We Can (1970), produced by the inimitable Allen Toussaint.\nAs unsexy as that sounds, it’s how the project got started. Sometimes the life of the mind is just another day at the office."
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV",
@@ -63,10 +42,24 @@
     "text": "Download CV (PDF)"
   },
   {
-    "objectID": "notebook/2026-08-09-just-another-day-at-the-office.html",
-    "href": "notebook/2026-08-09-just-another-day-at-the-office.html",
-    "title": "Just another day at the office",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joel Winkelman",
     "section": "",
-    "text": "I want to write a little bit about the genesis of this project, mostly so that I don’t forget. It may also be useful to some reader to peek behind the curtain of how professors at liberal arts colleges work.\nPart of where this project came from was a random blog post that I was reading about Murray Edelman, whose concept of “symbolic reassurance” is one of the most powerful and under-examined concepts in the discipline. I find that it’s even more powerful when considered in his own historical context. I’m liable to get bogged down if I write any more about Edelman, so I’ll try to get to the point. It’s going to take a second.\nAt the time, I was working in an administrative role at the college and didn’t have time to dedicate to serious scholarship. My curiosity was rather untethered and I indulged it in spare moments between trying to establish a program in “public philosophy” and implementation of an expanded, branded “experiential learning” initiative.\nSo, when I had time to read a blog post on Murray Edelman, I found stray references to an unknown-to-me author named Eric Berne and his book Games People Play. The post didn’t provide a satisfactory explanation of the connection between Berne and Edelman. And so the reference was like a fly to a brook trout: a hook in a swiftly moving stream.\nOver the next few months, I put the pieces together of who Berne was: a Canadian who had trained in psychoanalysis and settled in Northern California. It didn’t take much: he’s reasonably well-documented online. He was mostly in private practice, not institutional. But he was well-known in his field as the founder of a therapeutic methodology called “transactional analysis.” Games People Play was a mature expression of this methodology. The book itself, I would learn, is a strange text: part textbook for therapists, part self-help, and partly a book for the general reader. It seemed self-conscious and like it was attempting humor, though most of what he seems to try and pass off as humor are bald-faced misogyny and homophobia. In that regard, parts of it are hard to get through.\nIn writing my paper on John Dewey — “John Dewey’s Theory of Vocation,” American Political Thought 5, no. 2 (2016) — I had come across the vocational guidance literature, so I had a basic mental model of how to understand Games People Play, but not enough to shake my curiosity off of it.\nThat’s where the project got its start: a random blog post on an afternoon between administrative tasks.\nBut I forgot to mention one thing: Games People Play wasn’t some obscure text from the 1960s. It had been a smash for its publisher. It was well-known enough that in 1968 Joe South released a song called “Games People Play,” which won the Grammy for Song of the Year. I’m pretty certain, though I haven’t been able to find the documentary connection that I would need to make the claim in academic writing, that South’s song is inspired by the book and its popularity. The Grove Press archives may have just what I’m after; a publisher like Grove would want their piece of the pie.\nIt has been recorded by something like two hundred artists since. King Curtis’s instrumental version (Duane Allman on guitar) won a Grammy of its own. Dolly Parton did a version. My favorite is Lee Dorsey’s, on Yes We Can (1970), produced by the inimitable Allen Toussaint.\nAs unsexy as that sounds, it’s how the project got started. Sometimes the life of the mind is just another day at the office."
+    "text": "I teach government and public policy at Hamilton College.\nI’m from Oklahoma. I went to Hendrix College and did my PhD at UNC-Chapel Hill.\nI’ve always got a new hobby going. The two that stuck are record collecting and rock climbing. I also tinker with computers more than I probably should."
+  },
+  {
+    "objectID": "notebook/index.html",
+    "href": "notebook/index.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "This public notebook is working notes from projects in progress. It’s a diary of what I’m finding, and what I haven’t figured out yet. Not drafts. An experiment.\n\n\n\n\n\n\n\n\n\nJust another day at the office\n\n\nHow a project on Cold War social science started with a blog post about Murray Edelman\n\n\n\n\n\nAugust 9, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I’ve taught a range of courses over my career at Hamilton. The three I keep coming back to are American Political Process, Introduction to Public Policy, and a seminar on Capitalism, Democracy, and the Workplace."
   }
 ]
