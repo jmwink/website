@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Joel Winkelman</title>
+<title>Notebook – Joel Winkelman</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,22 +29,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,10 +74,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
-</head>
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="alternate" type="application/rss+xml" title="Joel Winkelman" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
@@ -84,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Joel Winkelman</span>
     </a>
   </div>
@@ -95,23 +155,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./work-in-progress.html"> 
+    <a class="nav-link" href="../work-in-progress.html"> 
 <span class="menu-text">Work in Progress</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -131,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Notebook</h1>
 </div>
 
 
@@ -149,30 +209,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!--
-Citations verified against Crossref metadata 2026-08-07 (volume, issue, pages,
-year all from the registered DOI record, not inferred). Reverse chronological.
+Deliberately NOT in the navbar (_quarto.yml). The only route in is the link in
+the Cold War paragraph on work-in-progress.qmd. Joel's framing, 2026-08-09:
+"something for people who have been curious enough to click around my webpage to
+find, but not something that's advertised."
 
-Author name omitted from each entry: every item is single-authored on Joel's own
-site. Note the Croly article's published byline is "Joel M. Winkelman" with the
-middle initial, unlike the other three — matters only if full citations are
-restored.
+⚠ Unadvertised is not unfindable. This page is reachable by link from a page
+that IS in the navbar, so search engines will crawl and index it. If Joel wants
+it genuinely reserved for people clicking around, that needs a noindex tag —
+still an open decision as of 2026-08-09.
 
-This page stays a plain list of published work: no headings, no sections, no
-book. Unpublished work lives on work-in-progress.qmd instead — that is the
-chatty page; this one is the formal record. (The older rule here said the
-monograph could not be described anywhere on the site until it was under
-contract. Joel reversed that on 2026-08-09 for the new page only.)
+⚠ BEFORE PUBLISHING ANY POST, run ./check-markers.sh from the site root.
+Joel drafts with park-and-continue markers — the bracketed CHECK, TODO, and
+LINK HERE kind — and they are live in the text when a post arrives. A literal
+TODO has reached this site once already. The script is the guard.
+(Marker syntax is spelled out in words here on purpose: writing it literally
+would make this comment trip the very check it documents.)
 -->
-<ul>
-<li>“David Foster Wallace and the Audience of Democratic Authority.” <em>American Political Thought</em> 11, no. 1 (2022): 96–115. <a href="https://doi.org/10.1086/717927">DOI</a></li>
-<li>“John Dewey’s Theory of Vocation.” <em>American Political Thought</em> 5, no. 2 (2016): 303–325. <a href="https://doi.org/10.1086/685761">DOI</a></li>
-<li>“A Working Democracy: Jane Addams on the Meaning of Work.” <em>The Review of Politics</em> 75, no. 3 (2013): 357–382. <a href="https://doi.org/10.1017/S0034670513000314">DOI</a></li>
-<li>“Herbert Croly on Work and Democracy.” <em>Polity</em> 44, no. 1 (2012): 81–105. <a href="https://doi.org/10.1057/pol.2011.16">DOI</a></li>
-</ul>
+<p>Working notes from projects in progress — what I’m finding, and what I haven’t figured out yet. Not drafts.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1786248000000" data-listing-file-modified-sort="1786287828336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="740">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../notebook/2026-08-09-just-another-day-at-the-office.html" class="no-external">Just another day at the office</a>
+</h3>
+<div class="delink listing-description"><a href="../notebook/2026-08-09-just-another-day-at-the-office.html" class="no-external">
+<p>How a project on Cold War social science started with a blog post about Murray Edelman, read between administrative tasks.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../notebook/2026-08-09-just-another-day-at-the-office.html" class="no-external">
+<div class="listing-date">
+August 9, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

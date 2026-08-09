@@ -8,7 +8,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:joel.winkelman@hey.com
+      href: mailto:jwinkelm@hamilton.edu
 ---
 
 <!--
