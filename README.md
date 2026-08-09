@@ -68,6 +68,46 @@ don't matter here.
   anything here you wouldn't publish — unlike `book-revision` and
   `sabbatical-papers`, which are private.
 
+## How Claude is used on this site
+
+I build and maintain this site with Claude Code. The repo is public, so here is
+what that actually means, in more detail than anyone probably wants.
+
+**What it does.** All of the structure: the Quarto scaffolding, `_quarto.yml`,
+the CSS, this README, the publish gate in `check-markers.sh`, the DNS and
+certificate setup, the image processing, and the script that generates the
+redacted public CV. It drafts page structure. The "About" and "Teaching" pages
+began as its drafts and were rewritten to my instruction. I threw out the
+first version of the bio entirely. Claude made the "Research" page using DOI
+lookups and links, rather than my cutting-and-pasting from my CV. Elsewhere,
+Claude does light copy-edits: spelling and grammar check. Using in-line tags
+while drafting my public notebook entries, I also use Claude for fact-checking,
+link verification, and information retrieval. In my experience, these uses save
+more embarrassment than they create.
+
+**Where the record is.** Each source file carries a comment block at the top
+recording what was changed and why, including the corrections I accepted and
+the ones I overrode. Those comments are in this repository and are the
+change-by-change account.
+
+**What it doesn't do.** After seeing its draft attempts at zhuzhing up my
+"About" and "Teaching" pages, I have instructed it to NOT generate prose,
+draft ideas, or give writing suggestions. The Work in Progress page and the
+notebook posts are my own dictated words; the source files instruct against
+expanding or improving them. Every editorial decision here is mine.
+
+**On publishing the prompts.** I have argued in print that workers should
+fight for transparency in AI usage, demanding to see their managers' chat
+histories and the training prompts behind them, rather than hand-wringing
+about the technology's existence. This README is an attempt to voluntarily
+demonstrate what I mean by that argument. Everything above this was first
+drafted by Claude, prompted to describe its understanding of its role. I have
+edited it for clarity and alignment.
+
+
+Letter: "When the Edible Hits," in *Blunt thoughts on AI*, n+1 Issue 53 (Spring
+2026). <https://www.nplusonemag.com/issue-53/letters/blunt-thoughts-on-ai/>
+
 ## Git architecture
 
 Per the workspace convention, this repo's `.git` lives outside Dropbox at

@@ -33,25 +33,25 @@ democracy. One contribution the book makes is a new interpretation of
 Progressivism as an ideology that centers work, an ideology that tried to make
 space for cross-class solidarity. Along the way, it makes an argument for
 including W.E.B. Du Bois among the Progressives, alongside Jane Addams, John
-Dewey, and Charlotte Perkins Gilman. And it shows how figures like Herbert Croly
-of *The New Republic* magazine helped to synthesize and popularize their ideas
-in the period. I conclude by suggesting that there are aspects of the
-Progressives' ideology of work that are worth keeping alive today, most of which
-are rooted in the Progressive intellectuals' understanding of themselves as
-workers.
+Dewey, and Charlotte Perkins Gilman. And it shows how figures like Herbert
+Croly of *The New Republic* magazine helped to synthesize and popularize their
+ideas in the period. I conclude by suggesting that there are aspects of the
+Progressives' ideology of work that are worth keeping alive today, most of
+which are rooted in the Progressive intellectuals' understanding of themselves
+as workers.
 
 ## Cold War social science in the United States
 
-I am also at work on an as-yet-unnamed project on the surprising
-interdisciplinary exchanges during the Cold War in the United States. These
-exchanges gave rise to what we now consider mainstream political science, and
-gave birth to a new field that was at the time called (by its progenitors)
-"policy sciences," and which we now know as the discipline of public policy. I
-have presented work from this project to the Northeast Political Science
-Association, the Association for Political Theory, and the Social Science
-History Association. It's based in archival sources, and is therefore even more
-slow-moving than my usual snail's pace. With support from the American
-Philosophical Society and the Office of the Dean of Faculty, I am on leave
-during the 2026–27 academic year so that I can get this project off the ground.
-If you wish to follow the journey, then you can read my [public
+I'm also at work on an as-yet-unnamed project on the surprising
+interdisciplinary exchanges in U.S. social science during the Cold War. These
+exchanges gave rise to what we now consider mainstream American political
+science, and gave birth to a new field that was at the time called (by some of
+its progenitors) "policy sciences," and which we now know as the discipline of
+"public policy." I have presented work from this project at conferences of the
+Northeast Political Science Association, the Association for Political Theory,
+and the Social Science History Association. It's based in archival sources, and
+is therefore even more slow-moving than my usual snail's pace. With support
+from the American Philosophical Society and the Office of the Dean of Faculty,
+I am on leave during the 2026–27 academic year so that I can get this project
+off the ground. If you wish to follow the journey, then you can read my [public
 notebook](notebook/index.qmd).
