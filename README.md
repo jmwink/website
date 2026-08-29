@@ -110,6 +110,6 @@ Letter: "When the Edible Hits," in *Blunt thoughts on AI*, n+1 Issue 53 (Spring
 
 ## Git architecture
 
-Per the workspace convention, this repo's `.git` lives outside Dropbox at
-`~/git-repos/website`, with a `.git` pointer file in the Dropbox tree. See
-`Projects/git-github-setup.md`.
+This repo lives at `~/Projects/website` with an ordinary `.git` directory.
+GitHub is the source of truth; machines sync through it rather than through a
+file-sync service.
