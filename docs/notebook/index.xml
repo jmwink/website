@@ -10,7 +10,27 @@
 <atom:link href="https://joelwinkelman.com/notebook/index.xml" rel="self" type="application/rss+xml"/>
 <description>Joel Winkelman is Assistant Professor of Government and Public Policy at Hamilton College.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Thu, 20 Aug 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 06 Sep 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Psychiatry in social science</title>
+  <link>https://joelwinkelman.com/notebook/2026-09-06-lasswell-and-szasz.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’m on a train coming back from a week of work in the archives and the APSA annual meeting. The particular collection I was looking at was the papers of Harold Lasswell, an important 20th-century political scientist. I don’t think many political scientists are “important” in the way Lasswell was, and I don’t think Lasswell’s importance has been fully appreciated, despite <a href="https://apsanet.org/programs/apsa-awards/harold-d-lasswell-award/">several</a> <a href="https://ispp.org/awards/lasswell/">awards</a> <a href="https://link.springer.com/article/10.1007/s11077-024-09524-x">named</a> in his honor. And, after this visit, I don’t think historians of American institutions fully appreciate how much Lasswell helped to shape the post-war U.S. national security state (but that’s the subject for a conference paper, not an entry in my public notebook).</p>
+<p>The reason Lasswell first caught my eye, actually, was an attack on him by Thomas Szasz in <em>Psychiatric Justice</em>. I had known a little bit about Lasswell because two students had written nice undergraduate theses on him with me. One student’s thesis, in particular, got me very curious about Lasswell and his apparent use of Freudian concepts. I had known him primarily as the author of a pithy aphorism about politics being “who gets what, when, how.” I knew he had made some contributions to the rise of behavioralism in the discipline, and had also written a canonical piece of early international relations theory about some concept he termed “the garrison state.” I had, at that point, probably never consciously read him.</p>
+<p>Of course, when Lasswell’s Freudianism came to my attention via a student paper, I presumed that the student was, if not mistaken, exaggerating or stretching the claim. Although it was an honors thesis, undergraduates tend toward hyperbole. And then I saw Thomas Szasz write about Harold Lasswell suggesting that a corps of “policy scientists” deploy around the country to conduct social psychiatry to assist citizens in their healthy adjustment to the psychic demands of democratic life. That certainly got my attention and sent me to the primary texts.</p>
+<p>I found when I read Lasswell’s <em>Psychopathology and Politics</em> that my student had not been exaggerating. And when I read Lasswell’s <em>Power and Personality</em>, I found that neither had Szasz. At first, I thought these projects were more connected than they have turned out to be. There’s no indication in Lasswell’s papers that he had any sustained or deep engagement with Thomas Szasz. Any debate was one-sided, and I think Szasz was partly picking a fight to try and get social scientists to pay attention to him (“rage-baiting,” or “engagement farming” in the parlance of our times) and there is no debate that could be staged between them as an intellectual set piece à la the Dewey-Lippmann debate or the Du Bois-Washington debate. But they do mark two poles of the intellectual current that carried psychiatry as an intellectual project from an interpretivist activity to a positivist one.</p>
+<p>What I find most interesting about Lasswell was his willingness to use the tools of psychiatry for the purposes of social adjustment. I am interested in how Lasswell thought the state should use psychiatric knowledge for its own national interest. And I am interested in how Lasswell justified it, if he did at all. After my visit to the archives, I’m increasingly thinking that he didn’t. After all, he wrote in his 1936 book <em>Politics: Who Gets What, When, How</em> that thinking might be great for “locating oneself as an object among objects in the march of time,” but it was also useful as a way to “discover ways and means of gaining goals.” I think his work on behalf of the state was in part a test of this hypothesis about the role of thinking.</p>
+
+
+
+ ]]></description>
+  <guid>https://joelwinkelman.com/notebook/2026-09-06-lasswell-and-szasz.html</guid>
+  <pubDate>Sun, 06 Sep 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Enter Thomas Szasz</title>
   <link>https://joelwinkelman.com/notebook/2026-08-20-enter-thomas-szasz.html</link>
@@ -19,23 +39,6 @@
 
 
 
-<!--
-✅ RESOLVED — no items open. Marker check clean; ready to render.
-
-History of this post, from dictation to publication:
-  - The dictation had Berne's game as "Why Don't/Yes But (WDYB)". Berne's own
-    title is "Why Don't You — Yes But" and his abbreviation throughout the
-    chapter is YDYB. Corrected to his forms, since the sentence attributes both
-    to him.
-  - Claude supplied the French title and publication year of Foucault's book:
-    the dictation had *Madness and Civilization* appearing in 1970, and the
-    sentence now reads *Folie et déraison*, 1961. (Plon published it that year,
-    the same year as Szasz; Richard Howard's English translation of Foucault's
-    own abridgement appeared as *Madness and Civilization* in 1965.) Which book
-    the comparison should name was Joel's call; the bibliographic facts are
-    Claude's contribution.
-  - "its stakes.." → "its stakes." (doubled period).
--->
 <p>In addition to Eric Berne, the current psychiatry project also considers Thomas Szasz, an important figure in the related anti-psychiatry and deinstitutionalization movements. The paper I’m currently working on as I write this update attempts to work out their relationship to one another and their relative importance to some of the intellectual currents of the time, notably the interdisciplinary formation we know as “game theory.” I’m writing this down to help clarify for myself what got me hooked on these two unusual figures.</p>
 <p>I noticed the connection between them when I was seriously reading <em>Games People Play</em>. As I mentioned <a href="../notebook/2026-08-09-just-another-day-at-the-office.html">before</a>, the book is dated and problematic in all kinds of ways. Nevertheless, I found it compelling as an intellectual document. One of the reasons that I found it so interesting is because my most important work at the time was a civic project that involved facilitating weekly group therapy with youth in jail who were facing adult charges. One of my co-facilitators was an older psychiatric social worker whose day job was in a state mental hospital. I’ve written about this <a href="https://popula.com/2018/12/13/plenty-to-think-about-but-not-much-to-believe-in/">elsewhere</a>, if anyone is curious. It was a weird chapter of life. Knowing a little bit about Berne’s “transactional analysis” gave me at least one way of understanding the work we were doing, however dated his concepts.</p>
 <p>But apart from its use in this specific and unusual collaboration, I have to admit that I found some of the “game analysis” verified in daily experience. My professional life kept showing me examples of Berne’s “Why Don’t You — Yes But” (YDYB) game. It had a bit of Myers-Briggs or Enneagram to it, the same parlor-game kind of appeal. Berne, however, didn’t see it as a parlor-game. When I looked at his footnotes, it was clear he saw it as a science. And it was clear that he saw it as a species of “game theory.” I’ve seen some confirmatory evidence in the Grove Press archives that suggest it wasn’t just Berne who saw it that way. I’m hoping to work it into this paper.</p>
@@ -56,26 +59,6 @@ History of this post, from dictation to publication:
 
 
 
-<!--
-✅ RESOLVED — this post published 2026-08-09. All three flagged items were
-settled by Joel: he rewrote the Berne/Joe South paragraph in his own words,
-accepted the "I found" repair, and confirmed the Discogs link (swapping the
-master page for release 11864364, the pressing whose credits he wanted).
-
-History of this post, from dictation to publication:
-  - "serious" unquoted, at his instruction — the wry tone carries it.
-  - "pass of" → "pass off" (dictation slip); "blogpost" → "blog post".
-  - The sentence beginning "So, when I had time to read a blog post…" had no
-    main verb in the dictation. Repaired minimally with "I found".
-  - ⚠ The dictated Joe South claim was "went to number 1 on the pop charts."
-    It peaked at #12 on the Billboard Hot 100 — #1 only in South Africa.
-    Replaced with the Grammy for Song of the Year, which is true and a larger
-    claim. Verified: Dolly Parton's version (My Blue Ridge Mountain Boy, 1969)
-    and King Curtis's Grammy-winning instrumental with Duane Allman.
-  - Grove Press did publish Games People Play (1964), so the closing hunch is
-    well founded. Its records are at Syracuse SCRC — staged for the paper at
-    gpp/references/20260809_grove-press-records-syracuse_CLAUDE-GENERATED.md.
--->
 <p>I want to write a little bit about the genesis of this project, mostly so that I don’t forget. It may also be useful to some reader to peek behind the curtain of how professors at liberal arts colleges work.</p>
 <p>Part of where this project came from was a random blog post that I was reading about Murray Edelman, whose concept of “symbolic reassurance” is one of the most powerful and under-examined concepts in the discipline. I find that it’s even more powerful when considered in his own historical context. I’m liable to get bogged down if I write any more about Edelman, so I’ll try to get to the point. It’s going to take a second.</p>
 <p>At the time, I was working in an administrative role at the college and didn’t have time to dedicate to serious scholarship. My curiosity was rather untethered and I indulged it in spare moments between trying to establish a program in “public philosophy” and implementation of an expanded, branded “experiential learning” initiative.</p>

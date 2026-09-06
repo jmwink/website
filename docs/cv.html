@@ -148,34 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!--
-files/cv.pdf is the PUBLIC version: pages 1-3 of the full CV only.
-
-Page 4 of the full CV is a References section listing four colleagues with
-their direct phone numbers and email addresses. That page is deliberately
-excluded — publishing it would expose third parties' contact details. The
-unredacted original is kept at files/cv-full-private.pdf, which is gitignored.
-
-When updating: replace files/cv-full-private.pdf with the new full CV, then
-regenerate the public copy, dropping the References page:
-
-    qpdf files/cv-full-private.pdf --pages . 1-3 -- files/cv.pdf
-
-Check the page range first — it will change if the CV grows past 4 pages.
--->
 <p><a href="files/cv.pdf">Download CV (PDF)</a></p>
-<!--
-Optional: an embedded viewer. Uncomment if you want the PDF visible inline.
-Some mobile browsers won't render it, which is why the link above comes first.
-
-<iframe src="files/cv.pdf" width="100%" height="800px" style="border: 1px solid #ddd;">
-</iframe>
--->
-<!--
-Optional alternative: maintain a short HTML summary here (Education,
-Positions, Selected publications) and link the full PDF. More to keep in sync,
-but it's indexable by search engines in a way the PDF isn't.
--->
 
 
 

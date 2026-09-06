@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  # ⚠ Load-bearing. Without an explicit render list, Quarto renders every .qmd
+  # Warning: load-bearing. Without an explicit render list, Quarto renders every .qmd
   # AND .md in the project — including handoff.md, which produced a publishable
   # docs/handoff.html on 2026-08-09. .gitignore excludes the handoff SOURCE, but
   # docs/ is committed on purpose (Pages serves from it), so `git add -A` would
@@ -35,6 +35,12 @@ website:
         text: CV
   page-footer:
     center: "© 2026 Joel Winkelman"
+
+# Strips HTML comments from the rendered output. The transparency header at
+# the top of each notebook post is for the repo, not for page source. See
+# strip-comments.lua for what it does and does not catch.
+filters:
+  - strip-comments.lua
 
 format:
   html:
