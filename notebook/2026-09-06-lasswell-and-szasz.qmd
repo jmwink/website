@@ -1,0 +1,70 @@
+---
+title: "Psychiatry in social science"
+description: "Just who was Thomas Szasz arguing with?"
+date: 2026-09-06
+---
+
+<!--
+Resolved: no items open. Marker check clean; ready to render.
+
+History of this post, from dictation to publication:
+  - Claude found the awards named after Lasswell in the social sciences.
+  - Claude checked the claim about engagement with Szasz against a local copy
+    of the finding aid.
+  - Formatting for web publishing.
+-->
+
+I'm on a train coming back from a week of work in the archives and the APSA
+annual meeting. The particular collection I was looking at was the papers of
+Harold Lasswell, an important 20th-century political scientist. I don't think
+many political scientists are "important" in the way Lasswell was, and I don't
+think Lasswell's importance has been fully appreciated, despite
+[several](https://apsanet.org/programs/apsa-awards/harold-d-lasswell-award/)
+[awards](https://ispp.org/awards/lasswell/)
+[named](http://www.policyscience.org/prize.html) in his honor. And, after this
+visit, I don't think historians of American institutions fully appreciate how
+much Lasswell helped to shape the post-war U.S. national security state (but
+that's the subject for a conference paper, not an entry in my public notebook).
+
+The reason Lasswell first caught my eye, actually, was an attack on him by
+Thomas Szasz in *Psychiatric Justice*. I had known a little bit about Lasswell
+because two students had written nice undergraduate theses on him with me. One
+student's thesis, in particular, got me very curious about Lasswell and his
+apparent use of Freudian concepts. I had known him primarily as the author of a
+pithy aphorism about politics being "who gets what, when, how." I knew he had
+made some contributions to the rise of behavioralism in the discipline, and had
+also written a canonical piece of early international relations theory about
+some concept he termed "the garrison state." I had, at that point, probably
+never consciously read him.
+
+Of course, when Lasswell's Freudianism came to my attention via a student paper,
+I presumed that the student was, if not mistaken, exaggerating or stretching the
+claim. Although it was an honors thesis, undergraduates tend toward hyperbole.
+And then I saw Thomas Szasz write about Harold Lasswell suggesting that a corps
+of "policy scientists" deploy around the country to conduct social psychiatry to
+assist citizens in their healthy adjustment to the psychic demands of democratic
+life. That certainly got my attention and sent me to the primary texts.
+
+I found when I read Lasswell's *Psychopathology and Politics* that my student
+had not been exaggerating. And when I read Lasswell's *Power and Personality*, I
+found that neither had Szasz. At first, I thought these projects were more
+connected than they have turned out to be. There's no indication in Lasswell's
+papers that he had any sustained or deep engagement with Thomas Szasz. Any
+debate was one-sided, and I think Szasz was partly picking a fight to try and
+get social scientists to pay attention to him ("rage-baiting," or "engagement
+farming" in the parlance of our times) and there is no debate that could be
+staged between them as an intellectual set piece à la the Dewey-Lippmann debate
+or the Du Bois-Washington debate. But they do mark two poles of the intellectual
+current that carried psychiatry as an intellectual project from an
+interpretivist activity to a positivist one.
+
+What I find most interesting about Lasswell was his willingness to use the tools
+of psychiatry for the purposes of social adjustment. I am interested in how
+Lasswell thought the state should use psychiatric knowledge for its own national
+interest. And I am interested in how Lasswell justified it, if he did at all.
+After my visit to the archives, I'm increasingly thinking that he didn't. After
+all, he wrote in his 1936 book *Politics: Who Gets What, When, How* that
+thinking might be great for "locating oneself as an object among objects in the
+march of time," but it was also useful as a way to "discover ways and means of
+gaining goals." I think his work on behalf of the state was in part a test of
+this hypothesis about the role of thinking.
