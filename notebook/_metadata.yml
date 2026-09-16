@@ -1,0 +1,4 @@
+# Notebook-wide options. Footnotes render as margin sidenotes: beside the text
+# on wide screens, in the text flow on narrow ones. Joel's choice, 2026-09-16,
+# the first post with a footnote.
+reference-location: margin
