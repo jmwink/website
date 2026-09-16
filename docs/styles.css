@@ -52,3 +52,22 @@ main ul > li {
   font-size: 0.875rem;
   color: #6c757d;
 }
+
+/* Photo credit under the About-page photo. The trestles template has no caption
+   option, so the credit is a pseudo-element ordered between the image and the
+   title (.about-entity is a flex column). Only the About page uses trestles.
+   The camera emoji is deliberate, Joel's call on 2026-09-16, and an explicit
+   exception to the no-emoji rule in his global CLAUDE.md. Do not strip it. */
+.quarto-about-trestles .about-entity > * {
+  order: 2;
+}
+.quarto-about-trestles .about-entity > .about-image {
+  order: 0;
+}
+.quarto-about-trestles .about-entity::before {
+  content: "📸\00a0\00a0Heather Sullivan"; /* non-breaking spaces: a plain space collapsed */
+  order: 1;
+  font-size: 0.875rem;
+  color: #6c757d;
+  margin: 0.4rem 0 1rem;
+}
