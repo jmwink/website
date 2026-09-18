@@ -34,6 +34,6 @@ EXIF orientation baked in, metadata stripped) generated from the untracked
 original images/IMG_1509.jpeg. Regenerate it rather than editing in place; the
 original is gitignored to keep 4 MB out of a public repo.
 
-Photo credit: lives in styles.css (.about-entity::before), which places it
-directly under the photo. The trestles template has no caption option.
+Photo credit: lives in styles.css. Two-column widths: .about-contents::after,
+right of the divider on the photo's bottom edge. Stacked: .about-entity::before.
 -->

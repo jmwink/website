@@ -53,21 +53,50 @@ main ul > li {
   color: #6c757d;
 }
 
-/* Photo credit under the About-page photo. The trestles template has no caption
-   option, so the credit is a pseudo-element ordered between the image and the
-   title (.about-entity is a flex column). Only the About page uses trestles.
+/* Photo credit for the About-page photo. The trestles template has no caption
+   option, so the credit is a pseudo-element. Only the About page uses trestles.
    The camera emoji is deliberate, Joel's call on 2026-09-16, and an explicit
-   exception to the no-emoji rule in his global CLAUDE.md. Do not strip it. */
-.quarto-about-trestles .about-entity > * {
-  order: 2;
+   exception to the no-emoji rule in his global CLAUDE.md. Do not strip it.
+
+   Two-column layout (992px and up, where trestles stops stacking): the credit
+   sits right of the divider, flush with the body text, with its baseline on the
+   photo's bottom edge. Both columns share a top edge, and the photo is 20em wide
+   at 3:4 (images/profile.jpg is 900x1200), so its bottom is 20em * 4/3 down, in
+   the body font. The credit is 0.875em of that, hence the / 0.875. 0.84em is the
+   baseline's distance from the top of a line-height: 1 box, measured in Chrome
+   2026-09-18. If image-width in index.qmd or the photo's aspect changes, this
+   calc has to change with it.
+
+   Stacked layout (below 992px): there is no divider, so the credit goes back
+   directly under the photo, ordered between the image and the title
+   (.about-entity is a flex column). */
+.quarto-about-trestles .about-contents {
+  position: relative;
 }
-.quarto-about-trestles .about-entity > .about-image {
-  order: 0;
-}
-.quarto-about-trestles .about-entity::before {
+.quarto-about-trestles .about-contents::after {
   content: "📸\00a0\00a0Heather Sullivan"; /* non-breaking spaces: a plain space collapsed */
-  order: 1;
-  font-size: 0.875rem;
+  position: absolute;
+  top: calc(20em * 4 / 3 / 0.875 - 0.84em);
+  /* left stays auto: the static position is the content edge, i.e. the text's left edge */
+  font-size: 0.875em;
+  line-height: 1;
   color: #6c757d;
-  margin: 0.4rem 0 1rem;
+}
+@media (max-width: 991.98px) {
+  .quarto-about-trestles .about-contents::after {
+    content: none;
+  }
+  .quarto-about-trestles .about-entity > * {
+    order: 2;
+  }
+  .quarto-about-trestles .about-entity > .about-image {
+    order: 0;
+  }
+  .quarto-about-trestles .about-entity::before {
+    content: "📸\00a0\00a0Heather Sullivan";
+    order: 1;
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin: 0.4rem 0 1rem;
+  }
 }
