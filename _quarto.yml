@@ -44,7 +44,11 @@ filters:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - fonts.scss
     css: styles.css
+    include-in-header:
+      text: '<link rel="stylesheet" href="https://use.typekit.net/otb2mem.css">'
     toc: false
     anchor-sections: false

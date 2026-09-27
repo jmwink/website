@@ -1,0 +1,8 @@
+/*-- scss:defaults --*/
+
+// Typography: Optima headings over Palatino text, both served by the Adobe Fonts
+// web project loaded in _quarto.yml (kit otb2mem). Each stack falls back to the
+// locally installed face, then to a free stand-in, so the site still reads as
+// intended if the Adobe subscription lapses.
+$font-family-sans-serif: "palatino-linotype", "Palatino Linotype", Palatino, "TeX Gyre Pagella", "Book Antiqua", serif;
+$headings-font-family: "optima-lt-pro", Optima, "Candara", sans-serif;
