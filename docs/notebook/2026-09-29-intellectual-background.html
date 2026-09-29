@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-29">
+<meta name="description" content="What does psychoanalysis have to do with democratic theory?">
 
-<title>Notebook – Joel Winkelman</title>
+<title>Intellectual background – Joel Winkelman</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -74,68 +74,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Joel Winkelman" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
@@ -191,14 +133,25 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notebook</h1>
+<h1 class="title">Intellectual background</h1>
 </div>
 
+<div>
+  <div class="description">
+    What does psychoanalysis have to do with democratic theory?
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 29, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -208,101 +161,25 @@ window.Quarto = {
 </header>
 
 
-<p>This public notebook is working notes from projects in progress. It’s a diary of what I’m finding, and what I haven’t figured out yet. Not drafts. An experiment.</p>
+<p>One thing I’ve noticed in the scholarship I’ve been reading about the period is that there were internal tensions in the conception of democracy in the years immediately surrounding World War 2. Democratic thinkers are described as anxious, nervous, or otherwise conflicted about their democratic commitments. The idea here is that too much democracy freaked intellectuals out, even (and maybe especially) those who felt a strong sense of democratic mission for the United States.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> These intellectuals, the story goes, were willing to make judicious intellectual and political compromises. In theory, they accepted technocratic shortcuts around some of democracy’s thornier theoretical problems. And in practice, they lent their careers to elite-led projects of social control.</p>
+<p>What made them nervous? Well, the Nazi threat for one. The German-American Bund famously <a href="https://en.wikipedia.org/wiki/1939_Nazi_rally_at_Madison_Square_Garden">filled Madison Square Garden in 1939</a> with American supporters of Hitler’s rampage across Europe. It’s a potent image, of course, and a rich symbol of the underlying insight that even the cosmopolitan capital of U.S. multiculturalism contained contradictory social forces. <a href="https://en.wikipedia.org/wiki/Charles_Coughlin">Father Coughlin’s</a> radio broadcasts suggested that the appetite for fascism was widespread among the general public. It wasn’t just the mass public either. No less an intellectual figure than Ezra Pound <a href="https://en.wikipedia.org/wiki/Ezra_Pound#World_War_II_and_fascist_radio_broadcasts_%281939%E2%80%931945%29">took to the radio</a> to celebrate European fascism. In the interwar decades, a number of Progressives had looked to Mussolini’s consolidation of power with admiration. The <em>War of the Worlds</em> broadcast cemented the feeling for some that the mass public may not be up to the challenge of self-government. There might be good reasons to generate an artificial democratic consensus, to gently, quietly, invisibly, restrict the range of acceptable opinion.</p>
+<p>When historians talk about this anxiety, they typically seat it in a rich intellectual set piece usually called <a href="https://en.wikipedia.org/wiki/Lippmann%E2%80%93Dewey_Debate">“the Dewey-Lippmann debate.”</a> In one corner is John Dewey, the philosopher of freedom and author of <em>The Public and Its Problems</em>, one of the great statements of 20th-century American democratic theory. In the other corner, and striking first, is Walter Lippmann, the shrewd, realist technocrat, author of <em>The Phantom Public</em>. In this telling, Dewey wrote <em>The Public and Its Problems</em> in response to Lippmann. Dewey: democracy was the process by which a public became constituted as a self-conscious problem-solving unit that was, in the process of its constitution, empowered to work out its own solutions. Lippmann: the public can’t learn what it needs to achieve this purpose, and it’s futile to act as if it could. In this brisk rendering, the debate is about whether something called “the public” can even exist, let alone rule. To the extent that the democratic thinkers of the World War 2 generation had anxiety about their political commitments it was because they couldn’t figure out how to reconcile the two positions of this debate. And they do indeed seem hard to reconcile.</p>
+<p>Here’s the thing: I’m not sure that I think too many of them were especially conflicted about this landing place. I’m not sure that many of them saw contradictions between democratic self-government and the specific means of social control they imagined. I don’t think this interpretation of the Dewey-Lippmann debate is accurate. I’m not sure there was a Dewey-Lippmann debate at all. I think this is one of the great set pieces of 20th-century American political life like the Du Bois-Washington debate or the King-Malcolm X debate: paper dolls for students to play with.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> There <em>were</em> important differences between Dewey and Lippmann; I’m just not persuaded that they were stark political differences. I think the differences were about their psychology, not their politics. Or, at least the bigger, more important differences.</p>
+<p>I think Dewey had a significantly more neutral view of the unconscious than Lippmann did. I think Dewey’s view follows that of William James, where “habit” is the relevant term. It’s fundamental to Dewey’s <em>Human Nature and Conduct</em>, guiding much of the text. Habits are mental processes that are automatic and don’t demand our attention (i.e., unconscious). Habits are like the channels that our mental activity flows through, arriving at predictable outcomes. They are super important! Habits are shaped by reflexive (as in, automatic reflexes) experiences rather than consciously chosen. For Dewey, of course, there were better and worse habits. One of the tasks of democratic theory was to bring habits to conscious attention, and to expose the consequences of them. Much of what <em>The Public and Its Problems</em> advocates is the establishment of habitual ways of resolving the consequences of what Dewey called “conjoint action.” Civic attention was the means by which democratic ends were achieved. There was always some tension in Dewey between ends and means in a way that I think the characterization of him as a pole in the “debate” with Lippmann elides.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>Now, the Lippmann side of the debate I know less well. But I <em>do</em> teach Lippmann’s <em>Public Opinion</em> every time I teach American Political Process, so the parts of Lippmann that I know, I know well through repeated exposure to the first chapter of <em>Public Opinion</em> in the classroom context. But what I read in that text is that the unconscious is a zone of <em>feeling</em> more than one of habit. It’s more volatile. To put it in the context of the canon of political theory, I think it has more similarity to Hobbes’s passions. We have feelings about events that we don’t experience, and those feelings are aroused by the mental images we make of the events. We are feeling creatures, and those feelings often cause us to hallucinate complete fictions out of single facts. As he puts it: “The casual fact, the creative imagination, the will to believe, and out of these three elements, a counterfeit of reality . . .” The unconscious isn’t what we’ve decided to automate, but a swirl of intense emotions that distorts our sense of reality. It’s much harder to bring the unconscious to attention because some of what it holds is too painful, embarrassing, or otherwise unutterable. No amount of “knowledge” is going to make our unconscious less unruly.</p>
+<p>I think that this question of how to characterize the unconscious was much more live for this generation of thinkers than contemporary readers give them credit for. That’s some background on what I’m up to in this project.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1790654400000" data-listing-file-modified-sort="1790687674274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1342">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../notebook/2026-09-29-intellectual-background.html" class="no-external">Intellectual background</a>
-</h3>
-<div class="delink listing-description"><a href="../notebook/2026-09-29-intellectual-background.html" class="no-external">
-<p>What does psychoanalysis have to do with democratic theory?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../notebook/2026-09-29-intellectual-background.html" class="no-external">
-<div class="listing-date">
-September 29, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1789444800000" data-listing-file-modified-sort="1789586939080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1156">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../notebook/2026-09-15-starting-to-sift-the-fragments.html" class="no-external">Starting to sift the fragments</a>
-</h3>
-<div class="delink listing-description"><a href="../notebook/2026-09-15-starting-to-sift-the-fragments.html" class="no-external">
-<p>Reflecting on the first two weeks of processing the archives</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../notebook/2026-09-15-starting-to-sift-the-fragments.html" class="no-external">
-<div class="listing-date">
-September 15, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1788667200000" data-listing-file-modified-sort="1788791600532" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="607">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../notebook/2026-09-06-lasswell-and-szasz.html" class="no-external">Psychiatry in social science</a>
-</h3>
-<div class="delink listing-description"><a href="../notebook/2026-09-06-lasswell-and-szasz.html" class="no-external">
-<p>Just who was Thomas Szasz arguing with?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../notebook/2026-09-06-lasswell-and-szasz.html" class="no-external">
-<div class="listing-date">
-September 6, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1787198400000" data-listing-file-modified-sort="1787271698018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="682">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../notebook/2026-08-20-enter-thomas-szasz.html" class="no-external">Enter Thomas Szasz</a>
-</h3>
-<div class="delink listing-description"><a href="../notebook/2026-08-20-enter-thomas-szasz.html" class="no-external">
-<p>Why did I stick with an offensive book?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../notebook/2026-08-20-enter-thomas-szasz.html" class="no-external">
-<div class="listing-date">
-August 20, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1786248000000" data-listing-file-modified-sort="1787102543691" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="776">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../notebook/2026-08-09-just-another-day-at-the-office.html" class="no-external">Just another day at the office</a>
-</h3>
-<div class="delink listing-description"><a href="../notebook/2026-08-09-just-another-day-at-the-office.html" class="no-external">
-<p>How a project on Cold War social science started with a blog post about Murray Edelman</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../notebook/2026-08-09-just-another-day-at-the-office.html" class="no-external">
-<div class="listing-date">
-August 9, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I’m reminded here of the great internationalist Jane Addams’s famous dictum that the only cure for the ills of democracy is more democracy. Perhaps there are fundamental tensions between democracy and the concept of the nation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>That sounds more derisive than I mean. Learning through play is important! Most great teachers don’t stop with the paper dolls, but encourage students to see the simplification and enter the debate for themselves rather than simply buying the t-shirt of their preferred political mascot.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>This is public notebook writing; a much more robust account of this paragraph would be needed for me to really commit to this interpretation of Dewey. The Dewey I know best is the one that writes between 1894–1918.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
