@@ -1,0 +1,36 @@
+---
+title: "Trying to connect the dots"
+description: "And what to do when there's no obvious way"
+date: 2026-10-14
+---
+
+<!--
+Resolved: no items open. Marker check clean; ready to render.
+
+History of this post, from draft to publication:
+  - The prose is Joel's, written in
+    ~/pmo/inbox/20261014_public-notebook-draft.md on 2026-10-14.
+  - Joel resolved his one check marker himself, entering the DeWitt
+    quotation from his copy of The Last Samurai; Claude could not locate
+    it online.
+  - Mechanical fixes made by Claude at Joel's instruction: "DeWitt's
+    The Last Samurai", "Madness Is Civilization", "institutions",
+    "crisis of man".
+  - Title, description and date are Joel's.
+-->
+
+I've been trying to take advantage of my leave to read as widely and deeply as I can, meaning reading outside my discipline and trying to appreciate the chance to stretch my understanding. There's a scene in Helen DeWitt's *The Last Samurai* that stuck with me where the narrator is doing research in a library and has an experience of realizing that the reason that she has failed as an academic is because she didn't realize that some people thought that the only reasons books existed was to be brought up from storage to be used to write another book that would go immediately to storage:
+
+>There are people who think the only reason to read a book is to write a book; people should call up books from the dust and dark and write thousands of words to be sent down to the dust and the dark which can be called up so that other people can send further thousands of words to join them in the dust and dark. Sometimes a book can be called from the dust and the dark to produce a book which can be bought in shops, and perhaps it is interesting, but the people who buy it and read it because it is interesting are not serious people, if they were serious they would not care about the interest they would be writing thousands of words to consign to the dust and the dark. 
+
+I'm trying to read more like the narrator and forget the utilitarian mode of reading for now. 
+
+I've been reading Michael Staub's *Madness Is Civilization* and Mark Greif's *The Age of the Crisis of Man*, two books that are about the social sciences written by humanists. One of the things I have been struggling with is how and whether to make connections between the two anchoring figures in this project, Thomas Szasz and Harold Lasswell. The reason I know they are connected is that Szasz attacks Lasswell in print, and kept a file on the guy through the 1960s. Lasswell never engages with Szasz to my knowledge, though I have learned that he provided an introduction to a book in Szasz's orbit, *The Insanity Defense* by Richard Arens. But, I don't understand how to stage my own encounter of these two figures.
+
+I don't want to just narrate Szasz's own view of Lasswell as an antagonist, but I do want to understand *why* Szasz would've been picking on Lasswell. And I'm starting to see some of it through reading these two books. Lasswell's main contribution to mid-century social science is to bring a certain psychoanalytic approach to political psychology into institutions of governance for the purposes of social control. I mean to phrase this in the most non-evaluative way I can. Lasswell was interested in using psychological warfare techniques and propaganda against adversaries and to bolster morale at home. I think "social control" is the more neutral term. And it's precisely this aspect of psychiatry that Szasz, Goffman, R.D. Laing and the antipsychiatry movement picked up on. 
+
+So, what was helpful in reading these two books was how both aim to show how much of what we think of 1960s movements for liberation (which antipsychiatry was) had roots in the wartime and immediate postwar political situation. Szasz was drafted to Bethesda to offer psychiatric services to the military during the Korean War, a very different conflict than the world war. Moreover, Szasz was drafted to execute the ideas and plans of Lasswell's generation. Lasswell and Hans Speier (another wartime social scientist) were able to use their expertise to design and implement institutional solutions to problems that they identified (or at least helped to define). Szasz was drafted into institutions that had already hardened into defined channels of activity. It's helpful to think about Szasz connected to Lasswell in this generational way. Another way to put it is that Lasswell's ultimate success paves the way for Szasz's reaction. 
+
+It's also been interesting to think about how Lasswell and Szasz both related to what Greif calls the discourse of "the crisis of man." I'm somewhat intrigued by how little psychoanalysis fits into the discourse of "the crisis of man" given how close to it many psychoanalytic thinkers were. I think the Staub book makes it seem as if these antipsychiatry thinkers, especially Laing, are fellow travelers with "the crisis of man" thinkers. I wish I had more time to develop this thought, but what I want to say now is that I appreciate the challenge of how to put a group of people together that you, as a scholar, have a sense belong together and struggle to articulate what conceptual concerns could unite them.
+
+
