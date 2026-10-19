@@ -15,13 +15,13 @@ the Cold War paragraph on work-in-progress.qmd. Joel's framing, 2026-08-09:
 "something for people who have been curious enough to click around my webpage to
 find, but not something that's advertised."
 
-⚠ Unadvertised is not unindexed, and that is a decision rather than an
+Warning: Unadvertised is not unindexed, and that is a decision rather than an
 oversight. This page is reachable by link from a page that IS in the navbar,
 so search engines will crawl and index it. Joel's call, 2026-08-09: that is
 fine — "I'm not saying anything professionally damaging." No noindex tag.
 Revisit only if the register of what gets posted here changes.
 
-⚠ BEFORE PUBLISHING ANY POST, run ./check-markers.sh from the site root.
+Warning: BEFORE PUBLISHING ANY POST, run ./check-markers.sh from the site root.
 Joel drafts with park-and-continue markers — the bracketed CHECK, TODO, and
 LINK HERE kind — and they are live in the text when a post arrives. A literal
 TODO has reached this site once already. The script is the guard.
@@ -30,4 +30,4 @@ would make this comment trip the very check it documents.)
 -->
 
 This public notebook is working notes from projects in progress. It's a diary of what I'm finding, and what I haven't
-figured out yet. Not drafts. An experiment.
+figured out yet. Not drafts. I think of this as surplus writing that happens when I'm in the process of writing. Putting it here gives me an imagined audience to give some shape to thoughts that are bouncing around my head and distracting me. I imagine that anyone reading this is either a current or former student, an occasional graduate student, or a colleague who has stumbled upon this page. I don't assume anyone is doing more than idly scrolling, giving their own brain a little space and distraction. That said, if you read something here and want to get in touch to talk more about it, then please do: I'm all ears.
